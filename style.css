@@ -1,1 +1,53 @@
-/* WIP for landing page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+body {
+    font-family: Roboto, serif;
+}
+
+header,
+footer {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 48px;
+    font-style: bold;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.gallery>h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+header {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button,
+.signup {
+    background-color: #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+}
